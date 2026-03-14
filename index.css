@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #000;
+    height: 100dvb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    position: relative;
+}
+
+div, #continue {
+    position: absolute;
+}
+
+div{
+    top: 55px;
+    left: 15px;
+}
+
+p{
+    font-size: 2rem;
+}
+
+#board{
+    background-color: #000;
+}
+
+#highscore{
+    color: #ffd700;
+}
+
+#lives{
+    color: #ff0000;
+}
+
+#continue{
+    top: 10px;
+    animation-name: blink;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    visibility: hidden;
+}
+
+@keyframes blink {
+    from {
+        opacity: 0.2;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.doto-stats{
+    font-family: "Doto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-variation-settings:
+        "ROND" 0;
+}
