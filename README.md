@@ -2,6 +2,8 @@
 
 A simple Pac-Man game that allows you to move around a map while eating dots and avoiding ghosts.
 
+**Note: This project is not responsive.**
+
 ## Technologies
 - HTML
 - CSS
